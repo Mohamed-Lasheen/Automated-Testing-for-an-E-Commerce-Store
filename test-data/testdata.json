@@ -1,0 +1,54 @@
+{
+  "testData": [
+    {
+      "testCase": "TC001_StandardCheckout",
+      "username": "testuser1",
+      "password": "Password123!",
+      "productName": "Vintage T-Shirt",
+      "shippingAddress": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john.doe@example.com",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10001",
+        "country": "USA"
+      },
+      "billingAddress": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "cardNumber": "4242424242424242",
+        "expiryDate": "12/25",
+        "cvv": "123",
+        "zipCode": "10001"
+      },
+      "expectedConfirmation": "Thank You For Your Order!"
+    },
+    {
+      "testCase": "TC002_DifferentProduct",
+      "username": "testuser2",
+      "password": "Password123!",
+      "productName": "Leather Wallet",
+      "shippingAddress": {
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "email": "jane.smith@example.com",
+        "address": "456 Oak Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipCode": "90001",
+        "country": "USA"
+      },
+      "billingAddress": {
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "cardNumber": "4242424242424242",
+        "expiryDate": "12/25",
+        "cvv": "123",
+        "zipCode": "90001"
+      },
+      "expectedConfirmation": "Thank You For Your Order!"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+productName,email,password,firstName,lastName,address,city,postalCode,country,cardNumber,expiry,cvv
+Claw Hammer with Shock Reduction Grip,test1@example.com,password123,John,Smith,123 Main St,New York,10001,USA,4242-4242-4242-4242,12/2025,123
+Bolt Cutters,test2@example.com,password123,Jane,Doe,456 Oak Ave,Boston,12345,USA,5555-5555-5555-4444,12/2030,123
+Combination Pliers,test3@example.com,password123,Mike,Johnson,789 Pine Rd,Chicago,60601,USA,4000-0025-0000-3155,12/2025,123
+Thor Hammer,test4@example.com,password123,Sarah,Wilson,321 Elm St,Los Angeles,90001,USA,4000-0000-0000-9995,12/2025,123
+Slip Joint Pliers,test5@example.com,password123,David,Brown,654 Maple Dr,Miami,33101,USA,4000-0000-0000-0002,12/2025,123
