@@ -26,7 +26,7 @@ public class CheckoutTest extends DriverFactory {
     @Test(dataProvider = "checkoutData")
     public void testCompleteCheckoutProcess(String productName, String email, String password,
                                             String firstName, String lastName, String address,
-                                            String city, String postalCode, String country,
+                                            String city, String state, String postalCode, String country,
                                             String cardNumber, String expiry, String cvv) {
 
         //WebDriver driver = getDriver();
@@ -60,7 +60,7 @@ public class CheckoutTest extends DriverFactory {
 
             // 5. Fill shipping and payment info
             Checkout checkoutPage = new Checkout(driver);
-            //checkoutPage.fillShippingInfo(address, city, postalCode, country);
+            checkoutPage.fillShippingInfo(address, city, state, postalCode, country);
             Thread.sleep(2000);
             checkoutPage.proceedToCheckoutAfterBilling();
             Thread.sleep(5000);
